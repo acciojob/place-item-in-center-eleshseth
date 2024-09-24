@@ -1,2 +1,22 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	box-sizing: border-box;   width: 100vw;                 /* Full width of the viewport */
+    height: 100vh;    
+	
+}
+.item-1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;        /* Red background for item-1 */
+    color: white;                 /* Text color to stand out against the background */
+    display: flex;                /* Flexbox to center text inside item-1 */
+    justify-content: center;      /* Center text horizontally */
+    align-items: center;          /* Center text vertically */
+    text-align: center;           /* Ensures text alignment in case of overflow */
+    padding: 10px;                /* Optional padding for better readability */
+    box-sizing: border-box;       /* Ensure padding is included in width/height */
+}
